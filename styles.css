@@ -1,0 +1,149 @@
+<style >
+
+body 
+{
+   
+    background-color: #f4f4f4;
+}
+
+header /* home page header*/ 
+{
+    background-color: lightpink;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main 
+{
+    padding: 2em;
+}
+
+#Me 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid lightpink;
+    margin-top: 20px;
+}
+
+h1 /*About me/other section headers*/ 
+{
+    padding-top: 20px;
+    color: navy;
+    text-align: center;
+    font-weight: bold;
+}
+
+.accordion 
+{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.accordion-header
+{
+    text-align:center;
+    font-weight: bold;
+}
+
+.accordion-button 
+{
+    color: navy;
+    background-color: lightpink;
+}
+
+.accordion-button:not(.collapsed) 
+{
+    background-color: lightpink;
+    color: navy;
+}
+
+.accordion-button:focus 
+{
+    box-shadow: none;
+    font-weight: bold; 
+}
+
+.accordion-body
+{
+    color: navy;
+    font-weight: lighter;
+}
+
+.list-group
+{
+    color: lightpink;
+}
+
+.list-group-item 
+{
+    text-align: center;
+    color: navy;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p
+{
+    text-align: center;
+    color: navy;
+    font-weight: bold;
+    background-color: lightpink;
+    height: 80px;
+}
+
+h5
+{
+    text-align: center;
+    color: navy;
+}
+
+h6 
+{
+    padding: 20px;
+    text-align: center;
+    color: navy;
+}
+
+.container 
+{
+    padding: 2px 16px;
+}
+
+.card-container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card 
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    flex-basis: calc(33.333% - 20px); /* 3 cards per row with some margin */
+    margin: 10px;
+    background-color: white;
+}
+
+.card-text
+{
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: lightpink;
+}
+
+.btn 
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+</style >
